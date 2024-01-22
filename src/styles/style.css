@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: #354155;
+    height: 300px;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    background-color: #354155;
+    height: 150px;
+    width: 100%;
+}
+
+#logo {
+    width: 250px;
+    height: 150px;
+    margin-left: 45px;
+}
+
+#menu {
+    width: 100px;
+    height: 50px;
+    margin-right: 45px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-width: 20px; max-width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+#searchButton {
+
+    background-color: #68d6c5;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.searchIcon {
+    min-width: 10px; max-width: 30px;
+    min-height: 10px; max-height: 30px;
+    margin-right: 5px;
+}
+
+.input {
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #354155;
+    min-width: 20px; max-width: 350px;
+    
+}
+
+.input:focus {
+    outline: none;
+}
+
+#PopularCars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px 10px;
+    width: 65%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #354155;
+   
+}
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    flex-wrap: wrap;
+   }
+.car{
+    border-radius: 20px;
+    width: 270px;
+    margin: 0 15px 10px;
+    box-shadow: 0 0 10px #354155;
+}
+.photoContainer{
+    display: flex;
+    background-color: #d9d9d9;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 120px;
+    
+}
+
+.carPhoto{
+    min-width: 100px; max-width: 350px;
+    min-height: 100px; max-height: 350px;
+}
+
+.InfoContainer{
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 20px 10px;
+ 
+}
+
+.Model{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #354155;
+}
+
+.Brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #354155;
+    margin-top: -25px;
+}
+.iconsContainer{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #354155;
+    align-items: center;
+}
+
+.remainingInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.infoIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#Brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Brands{
+    height: 140px;
+    width: 140px;
+    box-shadow: 0 0 10px #354155;
+
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+
+    border-radius: 20px;
+
+    margin: 0 0 10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
